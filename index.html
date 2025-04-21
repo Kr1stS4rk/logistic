@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=PT+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header header--scrolled header--dark">
+        <div class="container">
+          <div class="header__inner">
+            <a href="index.html" class="logo"
+              ><img
+                src="./assets/images/logo.svg"
+                alt="CenterLogistic"
+                class="logo__img"
+            /></a>
+
+            <nav class="nav menu--open">
+              <a href="#" class="header__nav-link active">Services</a>
+              <a href="#" class="header__nav-link">Clients</a>
+              <a href="#" class="header__nav-link">Benefits</a>
+              <a href="#" class="header__nav-link">Team</a>
+              <a href="#" class="header__nav-link">News</a>
+              <a href="#" class="header__nav-link">Contact Us</a>
+            </nav>
+            
+            <button class="menu__btn">
+              <span></span><span></span><span></span>
+            </button>
+          </div>
+        </div>
+      </header>
+    
+      <div class="intro">
+        <div class="container">
+          <div class="intro__inner">
+            <div class="request-form request-form--intro">
+              <div class="request-form__header">
+                <h3 class="request-form__title">Get Callback</h3>
+                <p class="request-form__dscp">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                  diam nonumy eirmod tempor invidunt ut
+                </p>
+              </div>
+              <div class="request-form__content">
+                <form  id="introForm"  action="" method="post">
+                  <div class="form__group">
+                    <input
+                      class="input input--name"
+                      name="name"
+                      type="text"
+                      placeholder="Your name"
+                      required
+                    />
+                  </div>
+                  <div class="form__group">
+                    <input
+                      class="input input--phone"
+                      type="phone"
+                      placeholder="Your phone"
+                      required
+                    />
+                  </div>
+                  <div class="form__group">
+                    <input
+                      class="input input--email"
+                      name="email"
+                      type="email"
+                      placeholder="Your e-mail"
+                      required
+                    />
+                  </div>
+                  <button
+                  id="openModalBtn"
+                    class="btn btn--block btn--orange"
+                    type="submit"
+                  >
+                    <span>Сall me back</span>
+                  </button>
+                </form>
+              </div>
+            </div>
+            <div class="intro__text">
+              <div class="intro__countries">USA, Europe, Asia</div>
+              <h1 class="intro__title">
+                Trans Logistic
+                <span class="intro__title-amp">&amp;</span>
+              </h1>
+            </div>
+            <!--intro  -->
+          </div>
+          <!-- <container  -->
+        </div>
+        <!-- intro__inner  -->
+      </div>
+      
+      <main>
+        <section class="section">
+          <div class="container">
+            <div class="services__inner">
+              <h2 class="services__main--title">Services</h2>
+              <ul class="services__list">
+                <li class="services__item">
+                  <h3 class="services__title">Ground Shipping</h3>
+                  <p class="services__dscp">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                    diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                    aliquyam
+                  </p>
+                  <div class="services__footer">
+                    <a href="" class="services__link services__link--red"
+                      >Learn more</a
+                    >
+                  </div>
+                </li>
+                <li class="services__item">
+                  <h3 class="services__title">Railway Shipping</h3>
+                  <p class="services__dscp">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                    diam nonumy eirmod tempor invidunt
+                  </p>
+                  <div class="services__footer">
+                    <a href="" class="services__link">Learn more</a>
+                  </div>
+                </li>
+                <li class="services__item">
+                  <h3 class="services__title">Water Shipping</h3>
+                  <p class="services__dscp">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                    diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                    aliquyam
+                  </p>
+                  <div class="services__footer">
+                    <a href="" class="services__link">Learn more</a>
+                  </div>
+                </li>
+                <li class="services__item">
+                  <h3 class="services__title">Air Shipping</h3>
+                  <p class="services__dscp">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                    diam nonumy eirmod tempor invidunt
+                  </p>
+                  <div class="services__footer">
+                    <a href="" class="services__link">Learn more</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="section section-clients clients-map">
+          <div class="container">
+            <h2 class="section__title"><span>Our</span> Clients</h2>
+            <div class="clients__inner">
+              <div class="clients">
+                <ul class="clients__list">
+                  <li class="clients__item">
+                    <a href="" target="_blank" class="clients__link">
+                      <img src="./assets/images/clients/atica.svg" alt=""
+                    /></a>
+                  </li>
+                  <li class="clients__item">
+                    <a href="" target="_blank" class="clients__link">
+                      <img src="./assets/images/clients/hex-lab.svg" alt=""
+                    /></a>
+                  </li>
+                  <li class="clients__item">
+                    <a href="" target="_blank" class="clients__link">
+                      <img src="./assets/images/clients/amara.svg" alt=""
+                    /></a>
+                  </li>
+                  <li class="clients__item">
+                    <a href="" target="_blank" class="clients__link">
+                      <img src="./assets/images/clients/muzica-2.svg" alt=""
+                    /></a>
+                  </li>
+                  <li class="clients__item">
+                    <a href="" target="_blank" class="clients__link">
+                      <img src="./assets/images/clients/solaytic.svg" alt=""
+                    /></a>
+                  </li>
+                  <li class="clients__item">
+                    <a href="" target="_blank" class="clients__link">
+                      <img src="./assets/images/clients/hexa.svg" alt=""
+                    /></a>
+                  </li>
+                  <li class="clients__item">
+                    <a href="" target="_blank" class="clients__link">
+                      <img src="./assets/images/clients/utosia-2.svg" alt=""
+                    /></a>
+                  </li>
+                  <li class="clients__item">
+                    <a href="" target="_blank" class="clients__link">
+                      <img src="./assets/images/clients/fox-hub.svg" alt=""
+                    /></a>
+                  </li>
+                </ul>
+                <div class="clients__review">
+                  <div class="review">
+                    <div class="reviews__header">
+                      <img src="" class="reviews__photo" alt="" />
+                      <div class="reviews__info">
+                        <p class="reviews__name">John Smith</p>
+                        <p class="reviews__position">FOX Hub CEO</p>
+                      </div>
+                    </div>
+                    <div class="reviews__text">
+                      <p>
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                        sed diam nonumy eirmod tempor invidunt ut labore et
+                        dolore magna aliquyam erat, sed diam voluptua. At vero
+                        eos et accusam et justo duo dolores et ea rebum
+                      </p>
+                      <p>
+                        Stet clita kasd gubergren, no sea takimata sanctus est
+                        Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+                        consetetur sadipscing elitr, sed diam
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button id="openModalBtn" class="btn btn--orange" type="submit">
+                <span>Become a client</span>
+              </button>
+              <span class="clients__love">we love our clients</span>
+            </div>
+          </div>
+        </section>
+        <section class="section section-benefits">
+          <div class="container">
+            <h2 class="section__title"><span>Our </span>benefits</h2>
+            <div class="benefits">
+              <div class="benefits__inner">
+                <div class="benefits__content">
+                  <ul class="benefits__list">
+                    <li class="benefits__item">
+                      <h4 class="benefits__name">Safety</h4>
+                      <p class="benefits__dscp">
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                        sed diam nonumy eirmod tempor
+                      </p>
+                    </li>
+                    <li class="benefits__item">
+                      <h4 class="benefits__name">High quality drivers</h4>
+                      <p class="benefits__dscp">
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                        sed diam nonumy eirmod tempor
+                      </p>
+                    </li>
+                    <li class="benefits__item">
+                      <h4 class="benefits__name">Guarantee & Support 24/7</h4>
+                      <p class="benefits__dscp">
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                        sed diam nonumy eirmod tempor
+                      </p>
+                    </li>
+                    <li class="benefits__item">
+                      <h4 class="benefits__name">Personal manager</h4>
+                      <p class="benefits__dscp">
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                        sed diam nonumy eirmod tempor
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+                <img
+                  src="./assets/images/benefits/benefits-photo.png"
+                  class="benefits__img"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section section--grey">
+          <div class="container">
+            <h2 class="section__title">
+              <p><span>Our</span> Team</p>
+            </h2>
+            <div class="team">
+              <ul class="team__list">
+                <li class="team__item">
+                  <img
+                    src="/assets/images/team/team-1.jpg"
+                    class="team__img"
+                    alt=""
+                  />
+                  <div class="team__user">
+                    <h4 class="team__user--name">John Smith</h4>
+                    <p class="team__user--job">
+                      Logistic manager - 8 years experience
+                    </p>
+                  </div>
+                  <div class="team__contacts">
+                    <img src="/assets/images/team/mail.svg" alt="" />
+                    <a
+                      href="mailto:john@centerlogistic.com"
+                      class="team__contacts--mail"
+                      >john@centerlogistic.com</a
+                    >
+                    <p>
+                      <img src="/assets/images/team/tel.svg" alt="" /><a
+                        href="tel:+987412512543"
+                        class="team__contacts--tel"
+                        >+987412512543</a
+                      >
+                    </p>
+                  </div>
+                </li>
+                <li class="team__item">
+                  <img
+                    src="/assets/images/team/team-2.jpg"
+                    class="team__img"
+                    alt=""
+                  />
+                  <div class="team__user">
+                    <h4 class="team__user--name">Daniel Kore</h4>
+                    <p class="team__user--job">Software engineer</p>
+                  </div>
+                  <div class="team__contacts">
+                    <img src="/assets/images/team/mail.svg" alt="" />
+                    <a
+                      href="mailto:john@centerlogistic.com"
+                      class="team__contacts--mail"
+                      >john@centerlogistic.com</a
+                    >
+                    <p>
+                      <img src="/assets/images/team/tel.svg" alt="" /><a
+                        href="tel:+987412512543"
+                        class="team__contacts--tel"
+                        >+987412512543</a
+                      >
+                    </p>
+                  </div>
+                </li>
+                <li class="team__item">
+                  <img
+                    src="/assets/images/team/team-3.jpg"
+                    class="team__img"
+                    alt=""
+                  />
+                  <div class="team__user">
+                    <h4 class="team__user--name">Anna Filler</h4>
+                    <p class="team__user--job">
+                      Marketing specialist - 10 years experience
+                    </p>
+                  </div>
+                  <div class="team__contacts">
+                    <img src="/assets/images/team/mail.svg" alt="" />
+                    <a
+                      href="mailto:john@centerlogistic.com"
+                      class="team__contacts--mail"
+                      >anna@centerlogistic.com</a
+                    >
+                    <p>
+                      <img src="/assets/images/team/tel.svg" alt="" />
+                      <a href="tel:+987412512543" class="team__contacts--tel"
+                        >+98735353456</a
+                      >
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="section seсtion--mission">
+          <div class="container">
+            <h2 class="mission__main--title">OUR MISSION</h2>
+            <div class="mission">
+              <h3 class="mission__title">
+                To provide our customer qualified services according the
+                international
+              </h3>
+              <p class="mission__dscp">
+                Book your Cargo now & Your job just got a lot easier
+              </p>
+            </div>
+            <div class="mission__btn">
+              <button id="openModalBtn" class="btn btn--orange" type="button">
+                <span>Become a client</span>
+              </button>
+            </div>
+          </div>
+        </section>
+        <!-- articles -->
+        <section class="section">
+          <div class="container">
+            <h2 class="section__title"><span>Interesting </span>to read</h2>
+            <div class="articles">
+              <article class="articles__item">
+                <h4 class="articles__title">News title</h4>
+                <p class="article__text">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                  diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                  aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                  justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+                  sea takimata sanctus est Lorem ipsum dolor sit amet.
+                </p>
+                <div class="article__time">
+                  <time datetime="2025-03-24">23 марта 2025</time>
+                </div>
+              </article>
+              <article class="articles__item">
+                <h4 class="articles__title">News title</h4>
+                <p class="article__text">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                  diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                  aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                  justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+                  sea takimata sanctus est Lorem ipsum dolor sit amet.
+                </p>
+                <div class="article__time">
+                  <time datetime="2025-03-24">23 марта 2025</time>
+                </div>
+              </article>
+            </div>
+            <a href="blog.html" class="btn btn--orange" type="submit">
+              <span>Visit blog</span>
+            </a>
+          </div>
+        </section>
+      </main>
+      <!-- footer -->
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__inner">
+            <a href="" class="logo"
+              ><img
+                src="./assets/images/footer/footer-logo.svg"
+                alt="CenterLogistic"
+                class="logo__img"
+            /></a>
+            <address>
+              <p>New York, Street, ZIP code<br /></p>
+              <p>
+                Call Us: <a href="tel:+9948373123">+9948373123</a> or E-mail:
+                <a href="mailto:hello@centerlogistic.com"
+                  >hello@centerlogistic.com</a
+                >
+              </p>
+            </address>
+            <nav class="footer__nav">
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Terms & Conditions</a>
+                </li>
+                <li class="footer__item">
+                  <a href="privacy.html" class="footer__link">Privacy Policy</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Our blog</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- модальные окна -->
+
+
+<!-- ПЕРВАЯ модалка -->
+<dialog class="modal" id="becomeClient"> 
+  <div class="modal__content">
+    <button
+      class="modal__close-btn"
+      id="closeModalBtn"
+      aria-label="Close modal"
+    >
+      <img src="/assets/images/modal/close.png" alt="" />
+    </button>
+    <div class="modal-form">
+      <div class="modal-form__header">
+        <h3 class="modal-form__title">
+          Need to deliver your cargo? We can help!
+        </h3>
+        <p class="modal-form__dscp">
+          Fill a little form and we will call you back!
+        </p>
+      </div>
+
+      <div class="form__content">
+        <form action="" method="post">
+          <div class="form__group">
+            <input
+              class="input input--dark input--name"
+              name="name"
+              type="text"
+              placeholder="Your name"
+              required
+            />
+          </div>
+          <div class="form__group">
+            <input
+              class="input input--dark input--phone"
+              type="phone"
+              placeholder="Your phone"
+              required
+            />
+          </div>
+          <div class="form__group">
+            <input
+              class="input input--dark input--email"
+              name="email"
+              type="email"
+              placeholder="Your e-mail"
+              required
+            />
+          </div>
+          <button class="btn btn--block btn--orange" type="submit">
+            <span>Call me back</span>
+          </button>
+        </form>
+      </div>
+
+      <div class="modal__footer">
+        <h4 class="modal__footer-title">Our contacts</h4>
+        <address class="modal__contacts">
+          <p>New York, Street, ZIP code</p>
+          <p><a href="tel:+9948373123">Phone: +9948373123</a></p>
+          <p><a href="mailto:hello@centerlogistic.com">E-mail: hello@centerlogistic.com</a></p>
+        </address>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+<!-- ВТОРАЯ модалка (спасибо) -->
+<dialog class="modal" id="thanksModal">
+  <div class="modal__content">
+    <button
+      class="modal__close-btn"
+      id="closeThanksBtn"
+      aria-label="Close modal"
+    >
+      <img src="/assets/images/modal/close.png" alt="" />
+    </button>
+    <div class="modal-form">
+      <div class="modal-form__header">
+        <img src="/assets/images/modal/thanks.svg" alt="" />
+        <h3 class="modal-form__title">Thanks for your request</h3>
+        <p class="modal-form__dscp">
+          We call you back as soon as possible!
+        </p>
+      </div>
+
+      <div class="modal__footer">
+        <h4 class="modal__footer-title">Our contacts</h4>
+        <address class="modal__contacts">
+          <p>New York, Street, ZIP code</p>
+          <p><a href="tel:+9948373123">Phone: +9948373123</a></p>
+          <p><a href="mailto:hello@centerlogistic.com">E-mail: hello@centerlogistic.com</a></p>
+        </address>
+      </div>
+    </div>
+  </div>
+</dialog>
+    <script src="js/main.js"></script>
+  </body>
+</html>

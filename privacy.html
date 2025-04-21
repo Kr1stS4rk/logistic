@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=PT+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header__inner">
+            <a href="index.html" class="logo"
+              ><img
+                src="./assets/images/logo.svg"
+                alt="CenterLogistic"
+                class="logo__img"
+            /></a>
+            <nav class="nav menu--open">
+              <a href="index.html" class="header__nav-link">Home Page</a
+              ><a href="privacy.html" class="header__nav-link"
+                >Privacy Policy </a
+              ><a href="privacy.html" class="header__nav-link">
+                Terma &amp; Conditions</a
+              >
+            </nav>
+            <button class="menu__btn">
+              <span></span><span></span><span></span>
+            </button>
+          </div>
+        </div>
+     
+      </header>
+
+      <div class="intro intro--privacy">
+        <div class="intro__inner"></div>
+      </div>
+      <section class="section section--last">
+        <div class="container">
+          <h1 class="section__title"><span>Privace</span> Policy</h1>
+          <div class="privacy">
+            <p>
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout. The
+              point of using Lorem Ipsum is that it has a more-or-less normal
+              distribution of letters, as opposed to using 'Content here,
+              content here', making it look like readable English. Many desktop
+              publishing packages and web page editors now use Lorem Ipsum as
+              their default model text, and a search for 'lorem ipsum' will
+              uncover many web sites still in their infancy).
+            </p>
+            <h3>Some subtitle</h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, remaining essentially unchanged.
+              It was popularised in the 1960s.
+            </p>
+            <ul>
+              <li>- unordered list item</li>
+              <li>- unordered list item</li>
+            </ul>
+            <hr />
+            <h4>Some subtitle</h4>
+            <p>
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour, or randomised words which don't look even
+              slightly believable. If you are going to use a passage of Lorem
+              Ipsum, you need to be sure there isn't anything embarrassing
+              hidden in the middle of text.If you are going to use a passage of
+              Lorem Ipsum, you need to be sure there isn't anything embarrassing
+              hidden in the middle of text.
+            </p>
+            <ol class="custom-ol">
+              <li>ordered list item</li>
+              <li>ordered list item</li>
+            </ol>
+          </div>
+          <!-- privacy -->
+          <a href="index.html" class="articl btn btn--orange">
+            <span>Back to home</span>
+          </a>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__inner">
+            <a href="" class="logo"
+              ><img
+                src="./assets/images/footer/footer-logo.svg"
+                alt="CenterLogistic"
+                class="logo__img"
+            /></a>
+            <address>
+              <p>New York, Street, ZIP code<br /></p>
+              <p>
+                Call Us: <a href="tel:+9948373123">+9948373123</a> or E-mail:
+                <a href="mailto:hello@centerlogistic.com"
+                  >hello@centerlogistic.com</a
+                >
+              </p>
+            </address>
+            <nav class="footer__nav">
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Terms & Conditions</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Privacy Policy</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Our blog</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- ПЕРВАЯ модалка -->
+<dialog class="modal" id="becomeClient"> 
+  <div class="modal__content">
+    <button
+      class="modal__close-btn"
+      id="closeModalBtn"
+      aria-label="Close modal"
+    >
+      <img src="/assets/images/modal/close.png" alt="" />
+    </button>
+    <div class="modal-form">
+      <div class="modal-form__header">
+        <h3 class="modal-form__title">
+          Need to deliver your cargo? We can help!
+        </h3>
+        <p class="modal-form__dscp">
+          Fill a little form and we will call you back!
+        </p>
+      </div>
+
+      <div class="form__content">
+        <form action="" method="post">
+          <div class="form__group">
+            <input
+              class="input input--dark input--name"
+              name="name"
+              type="text"
+              placeholder="Your name"
+              required
+            />
+          </div>
+          <div class="form__group">
+            <input
+              class="input input--dark input--phone"
+              type="phone"
+              placeholder="Your phone"
+              required
+            />
+          </div>
+          <div class="form__group">
+            <input
+              class="input input--dark input--email"
+              name="email"
+              type="email"
+              placeholder="Your e-mail"
+              required
+            />
+          </div>
+          <button class="btn btn--block btn--orange" type="submit">
+            <span>Call me back</span>
+          </button>
+        </form>
+      </div>
+
+      <div class="modal__footer">
+        <h4 class="modal__footer-title">Our contacts</h4>
+        <address class="modal__contacts">
+          <p>New York, Street, ZIP code</p>
+          <p><a href="tel:+9948373123">Phone: +9948373123</a></p>
+          <p><a href="mailto:hello@centerlogistic.com">E-mail: hello@centerlogistic.com</a></p>
+        </address>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+<!-- ВТОРАЯ модалка (спасибо) -->
+<dialog class="modal" id="thanksModal">
+  <div class="modal__content">
+    <button
+      class="modal__close-btn"
+      id="closeThanksBtn"
+      aria-label="Close modal"
+    >
+      <img src="/assets/images/modal/close.png" alt="" />
+    </button>
+    <div class="modal-form">
+      <div class="modal-form__header">
+        <img src="/assets/images/modal/thanks.svg" alt="" />
+        <h3 class="modal-form__title">Thanks for your request</h3>
+        <p class="modal-form__dscp">
+          We call you back as soon as possible!
+        </p>
+      </div>
+
+      <div class="modal__footer">
+        <h4 class="modal__footer-title">Our contacts</h4>
+        <address class="modal__contacts">
+          <p>New York, Street, ZIP code</p>
+          <p><a href="tel:+9948373123">Phone: +9948373123</a></p>
+          <p><a href="mailto:hello@centerlogistic.com">E-mail: hello@centerlogistic.com</a></p>
+        </address>
+      </div>
+    </div>
+  </div>
+</dialog>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
