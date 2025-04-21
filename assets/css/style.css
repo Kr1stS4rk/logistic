@@ -637,8 +637,8 @@ z-index: 1;}
   margin-top: auto;
   padding: 40px 0;
   background-color: #f9f9f9;
-  background-image: url("/assets/images/footer/track-1.svg"),
-    url("/assets/images/footer/track-2.svg");
+  background-image: url("../images/footer/track-1.svg"),
+    url("../images/footer/track-2.svg");
   background-repeat: no-repeat;
   background-position: left -26px bottom -9px, right -37px bottom -10px;
 }
