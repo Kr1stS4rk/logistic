@@ -472,12 +472,12 @@ z-index: 1;}
   left: 0;
 }
 .benefits__list::before {
-  background-image: url("/assets/images/benefits/pin-start.svg");
+  background-image: url("./assets/images/benefits/pin-start.svg");
   margin-bottom: 2px;
 }
 
 .benefits__list::after {
-  background-image: url("/assets/images/benefits/pin-end.svg");
+  background-image: url("./assets/images/benefits/pin-end.svg");
   bottom: -1px;
 }
 .benefits__name {
@@ -637,7 +637,7 @@ z-index: 1;}
   margin-top: auto;
   padding: 40px 0;
   background-color: #f9f9f9;
-  background-image: url("/assets/images/footer/track-1.svg"),
+  background-image: url("./assets/images/footer/track-1.svg"),
     url("/assets/images/footer/track-2.svg");
   background-repeat: no-repeat;
   background-position: left -26px bottom -9px, right -37px bottom -10px;
@@ -731,13 +731,13 @@ z-index: 1;}
 }
 
 .input--dark.input--name {
-  background-image: url("/assets/images/modal/user-dark.svg");
+  background-image: url("./assets/images/modal/user-dark.svg");
 }
 .input--dark.input--phone {
-  background-image: url("/assets/images/modal/phone-black.svg");
+  background-image: url("./assets/images/modal/phone-black.svg");
 }
 .input--dark.input--email {
-  background-image: url("/assets/images/modal/email-black.svg");
+  background-image: url("./assets/images/modal/email-black.svg");
 }
 
 /* modal__footer */
