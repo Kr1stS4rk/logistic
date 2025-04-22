@@ -648,7 +648,7 @@ z-index: 1;}
   gap: 25px;
   text-align: center;
 }
-.footer__inner .address p {
+.footer__inner address p {
   font-weight: 700;
   font-size: 12px;
   line-height: 1.2;
